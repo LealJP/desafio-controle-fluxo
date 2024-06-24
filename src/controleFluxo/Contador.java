@@ -19,6 +19,7 @@ public class Contador {
 			System.out.println("Primeiro parâmetro deve ser menor que o segundo parâmetro");
 
 		}
+		terminal.close();
 		
 	}
 	static void contar(int parametroUm, int parametroDois ) throws ParametrosInvalidosException {
